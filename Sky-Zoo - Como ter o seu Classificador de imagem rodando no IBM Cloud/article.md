@@ -1,6 +1,8 @@
 # Como ter o seu Classificador de imagem rodando no IBM Cloud
 #### Um pouco de teoria e prática para você entender como rodar seu modelo em nuvem
 
+![main](./img/head.png)
+
 A classifacação de imagens constitui um grande campo de estudo dentro dos algoritmos de classificação, tornar máquinas capazes de entender a carateristica buscada para classificar corretamente a imagem constitui um grande desafio tecnológico tanto do ponto de vista de hardware e software.
 
 Do ponto de vista de hardware, o processamento de imagens é custoso pois para que o algoritmo de classificação consiga extrair as características de uma determinada imagem é necessário analisar os pixels que a compõem, fazendo uma conta bem simples, uma imagem full HD de 1920x1080 resulta aproximadamente 2 milhões de pixel, e como cada pixel é formado por três conjuntos de bytes, um para cada canal RGB temos ao todo 6 milhões de bytes, o que resulta em algo próximo a 6MB da dado. Para uma imagem isso é normal, mas pensando num dataset com 1000 imagens acaba se tronando inviável sem uma GPU.
